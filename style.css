@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+body {
+  font-family: sans-serif;
+  background-color:#69F7BE ;
+}
+header {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding:30px 10%;
+  /*
+  background-color:forestgreen;
+  */
+}
+.logo {
+  cursor: pointer;
+  margin-right:auto;
+}
+.navlinks {
+  list-style: none;
+  justify-content:space-between;
+}
+.navlinks li {
+  display:inline-block;
+  padding: 0px 20px;
+}
+.navlinks li a{
+  transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+  color: #0088a9;
+}
+button{
+  padding: 10px 30px;
+  background-color: rgba(0,136,169,1);
+  border: 1px solid #000000;
+  border-radius:50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgba(0,136,169,0.5);
+}
+
+
+/* Button - Add it from the README instructions */
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+/* Subheading */
+h2 {
+  color: #2800FF;
+}
+
+table,tr,td {
+  border: 1px solid;
+}
+.propertycard {
+  display:flex;
+  flex-direction: row;
+  width:auto;
+  height:300px;
+
+  border:1px solid maroon;
+  align-self:flex-start;
+  margin: 20px;
+}
+.dashboard {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  padding:10px;
+  align-items:flex-start;
+}
